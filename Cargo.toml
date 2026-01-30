@@ -1,0 +1,15 @@
+[package]
+name = "hecc"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Hiding erasure-correcting codes (HECC) from MCP whitepaper"
+
+[lib]
+name = "hecc"
+path = "src/lib.rs"
+
+[dependencies]
+rand = "0.8"
+
+[dev-dependencies]
