@@ -4,6 +4,9 @@ version = "0.1.0"
 edition = "2021"
 license = "MIT"
 description = "Hiding erasure-correcting codes (HECC) from MCP whitepaper"
+readme = "README.md"
+keywords = ["erasure-coding", "fec", "sharding"]
+categories = ["algorithms", "encoding", "cryptography"]
 
 [lib]
 name = "hecc"
